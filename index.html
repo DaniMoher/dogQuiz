@@ -6,10 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Quiz</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="quizWrapper">
+            <div class="questionWrapper">
+                <h3 class="question"></h3>
+            </div>
+            <div class="answerWrapper">
+                <div class="answerItem beginQuiz">Start Quiz</div>
+            </div>
+        </div>
+        <div class="quizProgressBar">
+            <div class="barItem">
+                <div class="barItemProgress"></div>
+            </div>
+            <div class="nextQuestion">Next Question</div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 
